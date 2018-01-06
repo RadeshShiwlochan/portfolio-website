@@ -1,0 +1,34 @@
+
+html, body {
+	margin: 0px;
+	height:100%;
+}
+
+.wrapper {
+	height:100%;
+	display: grid;
+    grid-template-rows: auto 40px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+    "m m m m c c c c c c c c"
+    "f f f f f f f f f f f f";
+}
+
+.menu {
+    grid-area: m;
+    background-color: green;
+}
+
+.content {
+    grid-area: c;
+}
+
+.footer {
+    grid-area: f;
+    background-color: blue;
+}
+
+li {
+	list-style: none;
+	font-size: 25px;
+}
