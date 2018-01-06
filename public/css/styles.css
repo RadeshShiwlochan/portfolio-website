@@ -32,3 +32,8 @@ li {
 	list-style: none;
 	font-size: 25px;
 }
+
+.center-content {
+	margin: auto;
+	display:block;
+}
