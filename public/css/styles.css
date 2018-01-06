@@ -17,7 +17,7 @@ html, body {
 
 .menu {
     grid-area: m;
-    background-color: green;
+    background-color: #047229;
 }
 
 .content {
@@ -48,6 +48,11 @@ li {
 a {
 	color:white;
 	text-decoration: none;
+}
+
+a:hover {
+	font-size: 40px;
+	color: red;
 }
 
 h1, h2{
