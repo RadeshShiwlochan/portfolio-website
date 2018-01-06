@@ -2,6 +2,7 @@
 html, body {
 	margin: 0px;
 	height:100%;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -31,6 +32,15 @@ html, body {
 li {
 	list-style: none;
 	font-size: 25px;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+h1, h3 {
+	color: white;
 }
 
 .center-content {
