@@ -40,6 +40,10 @@ html, body {
 	margin: 50px;
 }
 
+.fa-github-square {
+	resize: 100px;
+}
+
 li {
 	list-style: none;
 	font-size: 25px;
@@ -55,7 +59,12 @@ a:hover {
 	color: red;
 }
 
-h1, h2{
+h1 {
+	color: white;
+	display: inline;
+}
+
+h2 {
 	color: white;
 }
 
