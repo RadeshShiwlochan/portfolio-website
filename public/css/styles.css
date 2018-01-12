@@ -1,3 +1,32 @@
+@media screen and (max-width: 100px ) {
+
+
+/*	html, body {
+	margin: 0px;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+}
+    .wrapper {
+	    height:100%;
+	    display: grid;
+        grid-template-rows: 400px 400px;
+        grid-template-columns: (12, 1fr )
+        grid-template-areas:
+            "m m m m m m m m m m m m"
+            "c c c c c c c c c c c c";
+    }*/
+
+    .menu {
+    	grid-row: 1;
+    	grid-column: span 12;
+        
+    }
+
+    .content {
+        grid-column: span 12;
+     }
+}
+
 
 html, body {
 	margin: 0px;
@@ -71,4 +100,6 @@ h2 {
 h3 {
 	font-family: 'Open Sans', sans-serif;
 }
+
+
 
