@@ -8,11 +8,11 @@ html, body {
 .wrapper {
 	height:100%;
 	display: grid;
-    grid-template-rows: auto 40px;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 600px 200px;
+    grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
-    "m m m m c c c c c c c c"
-    "f f f f f f f f f f f f";
+    "m"
+    "c";
 }
 
 .menu {
@@ -20,10 +20,20 @@ html, body {
     background-color: #047229;
 }
 
+.menu-align {
+	margin-left: 100px;
+	margin-top:20px: 
+}
+
 .content {
     grid-area: c;
 }
 
+img {
+	width:300px;
+	height: 250px;
+	margin-left: auto;
+}
 .footer {
     grid-area: f;
     background-color: blue;
