@@ -37,11 +37,11 @@ html, body {
 .wrapper {
 	height:100%;
 	display: grid;
-    grid-template-rows: auto 40px;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 480px auto;
+    grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
-    "m m m m c c c c c c c c"
-    "f f f f f f f f f f f f";
+    "m"
+    "c";
 }
 
 .menu {
@@ -49,10 +49,24 @@ html, body {
     background-color: #047229;
 }
 
+.menu-align {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .content {
     grid-area: c;
 }
 
+img {
+	width:300px;
+	height: 250px;
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
 .footer {
     grid-area: f;
     background-color: blue;
@@ -73,13 +87,25 @@ html, body {
 	resize: 100px;
 }
 
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 li {
 	list-style: none;
 	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a {
-	color:white;
+	color:black;
 	text-decoration: none;
 }
 
@@ -90,16 +116,27 @@ a:hover {
 
 h1 {
 	color: white;
-	display: inline;
+	text-align: center;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 h2 {
 	color: white;
+	text-align: center;
+	padding-top: 0px;
+	margin-top:0px;
 }
 
 h3 {
 	font-family: 'Open Sans', sans-serif;
 }
 
+<<<<<<< HEAD
 
+=======
+p {
+	color:black;
+}
+>>>>>>> mobile-design
 
