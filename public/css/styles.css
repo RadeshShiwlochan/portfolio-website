@@ -8,7 +8,7 @@ html, body {
 .wrapper {
 	height:100%;
 	display: grid;
-    grid-template-rows: 480px auto;
+    grid-template-rows: 320px auto;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
     "m"
