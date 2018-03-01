@@ -132,6 +132,9 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color:red;
+}
 h1 {
 	color: white;
 	text-align: center;

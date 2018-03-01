@@ -17,8 +17,4 @@ router.get( '/skills', ( req, res ) => {
     res.render( 'skills' );
 });
 
-router.get( '/contact', ( req, res ) => {
-    res.render( 'contact' );
-});
-
 module.exports = router;
