@@ -67,6 +67,13 @@
 	margin-left: 40%;
 }
 
+.skills-wrapper {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-rows:repeat(2, 100px);
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr ) )
+}
+
 #myBtn {
   display: none;
   position: fixed;
