@@ -60,7 +60,11 @@
 .list-contacts {
 	font-size: 18px;
 	margin-left: 20%;
-	display: block;
+}
+
+.list-skills {
+	font-size: 18px;
+	margin-left: 40%;
 }
 
 #myBtn {
